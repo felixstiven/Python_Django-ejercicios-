@@ -1,0 +1,11 @@
+{% extends 'layouts/base.html' %}
+
+{% block content%}
+<h1>Create Una nueva Tarea</h1>
+
+<form method="POST">
+    {% csrf_token %} <!--token de jinga para segurida del formulario-->
+    {{form.as_p}}
+    <button>enviar</button>
+</form>
+{% endblock %}
