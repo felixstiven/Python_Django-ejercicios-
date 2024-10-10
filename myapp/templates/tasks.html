@@ -1,14 +1,15 @@
 <h1>Seccion de Tasks</h1>
-
+{# nota: esta es una tarea #}
 {% for task in tasks %}
 <div>
-    <h1>{{task.title}}</h1>
+    <h1> {% if task.confirmation == False %} 🕑 {% else %} ✅ {% endif %} {{task.title}}</h1>
     <div>
         <h4>Descripcion</h4>
         <p><strong>Projects: {{task.project.name}}</strong></p>
         <p>{{task.descripcion}}</p>
         <button>Delete</button>
         <button>Update</button>
+        <button>✅ confirmar</button>
         
     </div>
 </div>
