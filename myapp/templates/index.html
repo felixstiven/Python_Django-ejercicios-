@@ -1,8 +1,11 @@
 {% extends 'layouts/base.html' %}
 
+{% load static%}
+
 {% block content %}
 
 <h1> {{title}}</h1>
+<img src="{% static 'circleganado.png' %}" alt="">
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime neque reiciendis tenetur, est exercitationem quaerat quis excepturi debitis suscipit beatae sequi, laudantium similique natus ducimus aliquid enim. Cum, nobis. Nam.</p>
 
 {% endblock %}

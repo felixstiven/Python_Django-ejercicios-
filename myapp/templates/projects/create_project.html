@@ -2,4 +2,13 @@
 
 {% block content%}
 <h1>Creando un Projecto</h1>
+
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button>
+        enviar
+    </button>
+
+</form>
 {% endblock%}

@@ -1,0 +1,17 @@
+body {
+    background-color: #202020;
+    color: white;
+}
+
+.navbar{
+    background: #404040;
+    padding: 20px 0 ;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    color: white;
+}
