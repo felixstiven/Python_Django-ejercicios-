@@ -5,7 +5,7 @@ body {
 
 .navbar{
     background: #404040;
-    padding: 20px 0 ;
+    padding: 4px 25px;
 }
 .navbar ul{
     display: flex;
@@ -14,4 +14,37 @@ body {
 
 .navbar ul li a {
     color: white;
+    text-decoration: none;
 }
+.navbar ul li a:hover{
+    color: yellow;
+}
+.navbar ul li {
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.card{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 2px;
+    color: black;
+}
+.navbar .task{
+    color: white;
+}
+
+.input {
+    background: wheat;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+
+
